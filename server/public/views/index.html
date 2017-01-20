@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Petfinder</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Syncopate:400,700|Bitter|Raleway' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../vendor/angular.min.js"></script>
+    <script type="text/javascript" src="../vendor/angular-route.min.js"></script>
+    <script type="text/javascript" src="../scripts/client.js"></script>
+    <script type="text/javascript" src="../scripts/controllers/dogController.js"></script>
+    <script type="text/javascript" src="../scripts/controllers/catController.js"></script>
+    <script type="text/javascript" src="../scripts/controllers/fluffyController.js"></script>
+
+    </script>
+
+
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="content">
+      <div ng-include="'/views/templates/nav.html'"></div>
+      <div ng-view></div>
+    </div>
+</div>
+
+</body>
+</html>
